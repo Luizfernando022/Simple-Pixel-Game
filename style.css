@@ -1,0 +1,111 @@
+body {
+    padding: 0;
+    margin: 5px;
+    background-color: black;
+    overflow: hidden;
+}
+
+#tela {
+    background-color: black;
+    width: 100%;
+    height: 645px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
+    border: solid 2px;
+    border-color: red blue blue red;
+    border-radius: 10px;
+    top: 0px;
+}
+
+#player {
+    background-color: red;
+    left: 40%;
+}
+
+#player2 {
+    background-color: blue;
+    left: 60%;
+}
+
+#player,
+#player2 {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    opacity: 0;
+    border-radius: 50px;
+}
+
+#azul,
+#vermelho {
+    color: blue;
+    position: relative;
+    font-size: 30px;
+    top: 400px;
+}
+
+#vermelho {
+    color: red;
+    top: 100px;
+}
+
+.botao {
+    position: absolute;
+    
+    top: 360px;
+    
+    transform: translateX(-50%);
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-image: linear-gradient(to right, red, blue);
+    border: none;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#recomeçar{
+    opacity: 0;
+}
+
+#h1 {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-image: linear-gradient(to right, blue, red);
+    border-radius: 10px;
+    padding: 10px
+}
+
+#win {
+    width: 10px;
+    height: 642px;
+    background-color: rgba(255, 255, 255, 0.705);
+    position: absolute;
+    top: 1px;
+    right: 30px;
+    opacity: 0;
+}
+h6{
+    position: absolute;
+    top: -50px
+}
+#winblue,#winred{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-image: linear-gradient(to right, blue, red);
+    border-radius: 10px;
+    padding: 10px;
+    opacity:0
+}
