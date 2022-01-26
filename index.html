@@ -11,21 +11,27 @@
 <body>
 
     <div id="tela">
+        
         <div>
             <h1 id="h1">Pixels Race</h1>
             <h1 id="winblue"> O jogador Azul Ganhou</h1>
             <h1 id="winred">O Jogador vermelho Ganhou</h1>
             <hr style="position: relative; top: 100px; width: 1100px; opacity: 0;">
         </div>
+        
         <div id="player">
-            <h6 style="color: white;">Player1</h6>
+            <h6 style="color: red;" id="play1">Player2</h6>
         </div>
         <div id="player2">
-            <h6 style="color: white;">player2</h6>
+            <h6 style="color: blue;" id="play2">player1</h6>
+        </div>
+        <div id="inputt">
+        <label>Jogador 1<br><input type="text" placeholder="Name"></label><br>
+        <label>Jogador 2<br><input type="text" placeholder="Name"></label>
         </div>
         <hr style="position: relative; top: 500px; width: 1100px; opacity: 0;">
         <div id="vermelho">
-
+        
         </div>
         <div id="azul"></div>
         <button class="botao" id="start" onclick="start()">START</button>

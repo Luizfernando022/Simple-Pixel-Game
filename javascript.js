@@ -15,10 +15,23 @@ let winred = document.getElementById('winred')
 let hr = document.getElementsByTagName('hr')[0]
 let hr1 = document.getElementsByTagName('hr')[1]
 
+let nome1 = document.getElementById('play1')
+let nome2 = document.getElementById('play2')
+let input1 = document.getElementsByTagName('input')[0]
+let input2 = document.getElementsByTagName('input')[1]
+let names  = document.getElementById('inputt')
+
+
+
+
+
 
 
 
 function start() {
+    names.style.opacity = 0
+    nome1.innerHTML = `${input1.value}`
+    nome2.innerHTML = `${input2.value}`
     winblue.style.opacity = "0"
     winred.style.opacity = "0"
     player.style.opacity = 1
@@ -30,6 +43,8 @@ function start() {
     let xInicial = 0
     let xInicial1 = 0
     let yInicial1 = 40
+    hr.style.borderColor = "red"
+    hr1.style.borderColor = "blue"
     hr.style.opacity = "1"
     hr1.style.opacity = "1"
 
