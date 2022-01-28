@@ -68,7 +68,7 @@ function start() {
             player2.style.opacity = 0
             h1.style.display = "none"
             winblue.style.opacity = "1"
-            btn.style.display = "inline-block"
+            // btn.style.display = "inline-block" Está bugando
             win.style.opacity = 0
             azul.style.opacity = "0"
             vermelho.style.opacity = "0"
@@ -86,7 +86,7 @@ function start() {
             player2.style.opacity = 0
             h1.style.display = "none"
             winred.style.opacity = "1"
-            btn.style.display = "none"
+            // btn.style.display = "none" Está bugando
             win.style.opacity = 0
             vermelho.style.opacity = "0"
             azul.style.opacity = "0"

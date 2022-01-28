@@ -112,7 +112,7 @@ h6{
     top: 80px;
     left: 50%;
     transform: translateX(-50%);
-    background-image: linear-gradient(to right, blue, red);
+    background-image: linear-gradient(to right, red, blue);
     border-radius: 10px;
     padding: 10px;
     opacity:0
