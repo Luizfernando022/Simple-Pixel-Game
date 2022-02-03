@@ -105,7 +105,20 @@ h6{
     left: -10px;
     font-size:20px;
 }
-#winblue,#winred{
+/* #winblue,#winred{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-image: linear-gradient(to right, red, blue);
+    border-radius: 10px;
+    padding: 10px;
+    opacity:0
+} */
+
+#winplayer{
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: absolute;
@@ -117,6 +130,7 @@ h6{
     padding: 10px;
     opacity:0
 }
+
 
 #inputt{
     position: absolute;
@@ -135,4 +149,12 @@ input{
     background-color: rgba(255, 255, 255, 0.685);
     border: none;
     outline: none;
+}
+.i2:focus{
+    color: red;
+    font-weight: bold;
+}
+.i1:focus{
+    color: blue;
+    font-weight: bold;
 }
