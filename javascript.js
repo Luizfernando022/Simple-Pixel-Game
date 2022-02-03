@@ -82,7 +82,7 @@ function start() {
             hr.style.opacity = "0"
             hr1.style.opacity = "0"
         }
-        else if(xInicial > 1310) {
+        else if(xInicial > 1320) {
 
             player.style.opacity = 0
             player2.style.opacity = 0
@@ -118,7 +118,7 @@ function start() {
             hr.style.opacity = "0"
             hr1.style.opacity = "0"
         }
-        else if(xInicial1 > 1310) {
+        else if(xInicial1 > 1320) {
             player.style.opacity = 0
             player2.style.opacity = 0
             h1.style.display = "none"
